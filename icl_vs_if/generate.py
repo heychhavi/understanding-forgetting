@@ -1,3 +1,4 @@
+from unsloth import UnslothTokenizer, UnslothModelForCausalLM
 from transformers import AutoTokenizer, AutoModelForCausalLM, LlamaTokenizer
 from tqdm import tqdm
 import pdb
