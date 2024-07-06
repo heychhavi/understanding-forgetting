@@ -7,9 +7,9 @@ import argparse
 import pandas as pd
 
 MODEL_PATHS = {
-    "llama": "huggingface/llama-7b",  # Adjust to a valid Hugging Face model
-    "alpaca": "huggingface/alpaca-7b",
-    "vicuna-7b": "huggingface/vicuna-7b",
+    "llama": "meta-llama/Meta-Llama-3-8B",  # Adjust to a valid Hugging Face model
+    "alpaca": "vicgalle/alpaca-7b",
+    "vicuna-7b": "lmsys/vicuna-7b-v1.5",
     "opt-1.3b": "facebook/opt-1.3b",
     "opt-iml-max-1.3b": "facebook/opt-iml-max-1.3b",
 }
