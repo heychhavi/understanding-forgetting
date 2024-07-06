@@ -6,7 +6,7 @@ import argparse
 import pandas as pd
 
 MODEL_PATHS = {
-    "llama": "/project_data/projects/suhask/llama/download/7B_HF",
+    "llama": "/unsloth/llama-3-8b-bnb-4bit",
     "alpaca": "/project_data/projects/suhask/alpaca",
     "vicuna-7b": "/project_data/projects/suhask/vicuna-7b",
     "opt-1.3b": "/project_data/projects/suhask/opt-1.3b/models--facebook--opt-1.3b/snapshots/8c7b10754972749675d22364c25c428b29face51/",
